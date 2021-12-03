@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#11BACA"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".relativeLayout.RelativeLayoutActivity">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Quarta, 21 de Setembro"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textDay"
+        android:background="@color/white" />
+
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDay"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:text="Cortar a grama"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check1"
+        android:layout_alignParentStart="true"
+        android:text="Fazer as compras"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Complete todas as tarefas"
+        android:textColor="#ffff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
